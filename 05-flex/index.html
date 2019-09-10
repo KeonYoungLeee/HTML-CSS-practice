@@ -11,27 +11,40 @@
         }
         .father {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: column; /* row하면 디폴트 값*/
+            justify-content: space-between;
+            align-items: flex-start;
+            
+            flex-direction: row-reverse; /* row하면 디폴트 값*/
             height: 100%;
+            flex-wrap: wrap;
             
         }
         .box {
             background-color: red;
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
            
         }
     </style>
 </head>
 <body>
     <div class="father">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
     </div>
 </body>
 </html>
