@@ -1,4 +1,3 @@
-# kakao-clone
+# HTML-CSS
 
-kakao Desktop App clone
  
